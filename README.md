@@ -1,5 +1,7 @@
 # Autonomous Delivery Robot
 
+![Robot Visualization](assets/demo.gif)
+
 This project simulates an **autonomous delivery robot** navigating a 15x15 grid city environment with obstacles and delivery points. The robot uses informed search algorithms like **A*** and **Recursive Best-First Search (RBFS)** to plan optimal paths for delivering packages.
 
 ---
@@ -44,6 +46,7 @@ autonomous_delivery_robot/
 ├── robot.py               # Robot logic and path execution
 ├── visualization.py       # Visualization using matplotlib
 ├── dynamic_env.py         # Dynamic updates for vehicles/obstacles
+├── assets/                # Images, GIFs, or demo visuals
 └── tests/                 # Unit tests (optional)
 ```
 
@@ -94,6 +97,13 @@ pip install matplotlib numpy pygame
 
 ---
 
+## **Visuals**
+Example of robot navigating the grid:
+
+![Grid Example](assets/grid_example.png)
+
+---
+
 ## **Future Enhancements**
 - Add **multi-robot coordination**.
 - GUI using **Tkinter** or **PyQt** for interactive simulation.
@@ -101,5 +111,10 @@ pip install matplotlib numpy pygame
 
 ---
 
+## **Credits**
+Developed as part of a project for **National University of Computer and Emerging Sciences, Faisalabad - Chiniot Campus**.
+
+---
+
 ## **License**
-This project is released under the MIT License.
+This project is licensed under the **GNU General Public License v3.0 (GPLv3)**. You are free to use, modify, and distribute this project under the terms of the GPLv3 license.
