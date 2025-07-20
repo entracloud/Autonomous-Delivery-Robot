@@ -92,7 +92,7 @@ Watch the robot plan and execute paths with real-time visualization.
 ---
 
 ## 🎥 Preview & Visuals
-![Grid Example](assets/grid_example.png)
+![Grid Example](grid.png)
 
 *(Add GIFs or screenshots of the robot in action for better visuals.)*
 
@@ -132,7 +132,7 @@ For inquiries or collaboration:
 
 ---
 
-💖 **Developed with passion by EntraCloud**
+💖 **Developed with passion by entracloud**
 
 ---
 
