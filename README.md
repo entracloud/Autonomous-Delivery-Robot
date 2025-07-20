@@ -94,8 +94,6 @@ Watch the robot plan and execute paths with real-time visualization.
 ## 🎥 Preview & Visuals
 ![Grid Example](grid.png)
 
-*(Add GIFs or screenshots of the robot in action for better visuals.)*
-
 ---
 
 ## 🌟 Future Enhancements
