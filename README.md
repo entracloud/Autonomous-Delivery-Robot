@@ -1,72 +1,80 @@
-# Autonomous Delivery Robot
+# 🤖 Autonomous Delivery Robot
 
 ![Robot Visualization](assets/demo.gif)
 
-This project simulates an **autonomous delivery robot** navigating a 15x15 grid city environment with obstacles and delivery points. The robot uses informed search algorithms like **A*** and **Recursive Best-First Search (RBFS)** to plan optimal paths for delivering packages.
+## 🚀 About the Project
+The **Autonomous Delivery Robot** simulates a smart delivery system capable of navigating a 15x15 grid city environment filled with obstacles. It uses informed search algorithms like **A*** and **Recursive Best-First Search (RBFS)** for efficient path planning and adapts to dynamic changes in real-time.
 
 ---
 
-## **Features**
-- **City Grid Representation:**
-  - 15x15 grid with random obstacles (buildings, vehicles).
+## 🎯 Features
+- **City Grid Representation:**  
+  - 15x15 grid with random obstacles (buildings, vehicles).  
   - Randomly generated delivery points.
 
-- **Search Algorithms:**
-  - A* search with Euclidean distance heuristic.
-  - RBFS algorithm for comparison.
+- **Search Algorithms:**  
+  - A* search with Euclidean distance heuristic.  
+  - RBFS algorithm for comparison.  
   - Path cost between nodes randomly set between 1 and 20.
 
-- **Dynamic Environment:**
-  - Vehicles (dynamic obstacles) are moved after each delivery.
-  - Robot adapts path planning in real-time.
+- **Dynamic Environment:**  
+  - Moving vehicles (dynamic obstacles) after each delivery.  
+  - Robot replans its path in real-time.
 
-- **Path Execution:**
-  - Robot executes planned paths to reach 5 delivery points sequentially.
+- **Path Execution:**  
+  - Sequential delivery to 5 random points.  
   - Start position updates after each delivery.
 
-- **Visualization:**
-  - Real-time grid visualization using `matplotlib`.
-  - Obstacles, delivery points, and robot paths displayed.
+- **Visualization:**  
+  - Real-time grid visualization with `matplotlib`.  
+  - Obstacles, delivery points, and robot path displayed.
 
-- **Performance Evaluation:**
-  - Compares A* vs RBFS in terms of cost, time, and expanded nodes.
+- **Performance Evaluation:**  
+  - Comparison of A* vs RBFS (cost, execution time, expanded nodes).
 
-- **Bonus:**
+- **Bonus:**  
   - Extendable for multi-robot coordination.
 
 ---
 
-## **Project Structure**
-```
+## 🛠️ Technologies Used
+- **Python 3.9+**
+- **Matplotlib** (for visualization)
+- **NumPy** (for calculations)
+- **Pygame** *(optional for advanced animations)*
+- **Git & GitHub** (version control & deployment)
+- **VS Code** (development environment)
+
+---
+
+## 📂 Project Structure
+```bash
 autonomous_delivery_robot/
-├── main.py                # Entry point of the project
-├── environment.py         # Grid and environment representation
-├── search_algorithms.py   # A* and RBFS implementations
-├── heuristics.py          # Heuristic functions (Euclidean distance)
-├── robot.py               # Robot logic and path execution
-├── visualization.py       # Visualization using matplotlib
-├── dynamic_env.py         # Dynamic updates for vehicles/obstacles
-├── assets/                # Images, GIFs, or demo visuals
-└── tests/                 # Unit tests (optional)
+│── assets/                # Images, GIFs, or demo visuals
+│── environment.py         # Grid and environment representation
+│── search_algorithms.py   # A* and RBFS implementations
+│── heuristics.py          # Heuristic functions (Euclidean distance)
+│── robot.py               # Robot logic and path execution
+│── visualization.py       # Visualization using matplotlib
+│── dynamic_env.py         # Dynamic updates for vehicles/obstacles
+│── main.py                # Entry point of the project
+└── README.md              # Project documentation
 ```
 
 ---
 
-## **Installation & Setup**
-
+## ⚡ Installation & Setup
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/<your-username>/autonomous-delivery-robot.git
    cd autonomous-delivery-robot
    ```
-
-2. **Create a virtual environment (optional but recommended):**
+2. **Create a virtual environment:**
    ```bash
    python -m venv env
-   source env/bin/activate   # For Linux/Mac
-   env\Scripts\activate      # For Windows
+   source env/bin/activate   # Linux/Mac
+   env\Scripts\activate      # Windows
    ```
-
 3. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
@@ -74,47 +82,59 @@ autonomous_delivery_robot/
 
 ---
 
-## **Usage**
+## ▶️ Usage
 Run the main simulation:
 ```bash
 python main.py
 ```
-
-The robot will plan and execute paths to all delivery points, with real-time visualization of movements and obstacles.
-
----
-
-## **Dependencies**
-- Python 3.9+
-- matplotlib
-- numpy
-- pygame *(optional for advanced visualization)*
-
-Install them manually if you don't have a `requirements.txt` file:
-```bash
-pip install matplotlib numpy pygame
-```
+Watch the robot plan and execute paths with real-time visualization.
 
 ---
 
-## **Visuals**
-Example of robot navigating the grid:
-
+## 🎥 Preview & Visuals
 ![Grid Example](assets/grid_example.png)
 
+*(Add GIFs or screenshots of the robot in action for better visuals.)*
+
 ---
 
-## **Future Enhancements**
+## 🌟 Future Enhancements
 - Add **multi-robot coordination**.
-- GUI using **Tkinter** or **PyQt** for interactive simulation.
+- Interactive GUI using **Tkinter** or **PyQt**.
 - Save performance metrics to logs or CSV.
 
 ---
 
-## **Credits**
-Developed as part of a project for **National University of Computer and Emerging Sciences, Faisalabad - Chiniot Campus**.
+## 👨‍💻 Contributing
+Contributions are welcome!  
+Steps:
+1. Fork this repository.
+2. Create a new branch.
+   ```bash
+   git checkout -b feature-branch
+   ```
+3. Commit your changes.
+   ```bash
+   git commit -m "Added new feature"
+   ```
+4. Push the branch.
+   ```bash
+   git push origin feature-branch
+   ```
+5. Open a Pull Request.
 
 ---
 
-## **License**
-This project is licensed under the **GNU General Public License v3.0 (GPLv3)**. You are free to use, modify, and distribute this project under the terms of the GPLv3 license.
+## 📞 Contact
+For inquiries or collaboration:
+- **Email:** [info@entracloud.net](mailto:info@entracloud.net)  
+- **LinkedIn:** [entracloud](https://www.linkedin.com/company/entracloud/)  
+
+---
+
+💖 **Developed with passion by EntraCloud**
+
+---
+
+## 📜 License
+This project is licensed under the **GNU General Public License v3.0 (GPLv3)**. See the LICENSE file for details.
